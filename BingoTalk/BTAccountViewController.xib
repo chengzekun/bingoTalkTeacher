@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BTAccountViewController">
+            <connections>
+                <outlet property="LogoutButton" destination="3HD-Wd-vxI" id="wAt-fZ-T6H"/>
+                <outlet property="UserImage" destination="UeT-28-GXD" id="R2d-ns-PEI"/>
+                <outlet property="UserName" destination="F1k-Gb-HC6" id="C6d-fN-v50"/>
+                <outlet property="UserScore" destination="6U4-e7-uW4" id="nUR-Qv-pFm"/>
+                <outlet property="accountTable" destination="qnb-k1-EdI" id="PXd-83-RbZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XDX-zp-hqE">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="202"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UeT-28-GXD">
+                            <rect key="frame" x="155.5" y="48" width="64" height="64"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="64" id="DQ3-bM-r9q"/>
+                                <constraint firstAttribute="width" constant="64" id="HKz-js-nVv"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jazlyn Ferry" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F1k-Gb-HC6" userLabel="NameLabel">
+                            <rect key="frame" x="147" y="122" width="81" height="17"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                            <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score :  3.8 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6U4-e7-uW4">
+                            <rect key="frame" x="149" y="149" width="77.5" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3HD-Wd-vxI" userLabel="LogOutButton">
+                            <rect key="frame" x="307" y="48" width="52" height="32"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                            <state key="normal" title="Logout">
+                                <color key="titleColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="logOutButtonClicked:" destination="-1" eventType="touchUpInside" id="VIe-rT-U0G"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.98039215686274506" green="0.92549019607843142" blue="0.72156862745098038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="3HD-Wd-vxI" secondAttribute="trailing" constant="16" id="DdY-gi-k44"/>
+                        <constraint firstAttribute="height" constant="202" id="OQM-mA-ga3"/>
+                        <constraint firstItem="6U4-e7-uW4" firstAttribute="centerX" secondItem="XDX-zp-hqE" secondAttribute="centerX" id="QQa-RM-FGx"/>
+                        <constraint firstItem="F1k-Gb-HC6" firstAttribute="centerX" secondItem="XDX-zp-hqE" secondAttribute="centerX" id="RRJ-Jr-LCO"/>
+                        <constraint firstItem="UeT-28-GXD" firstAttribute="centerX" secondItem="XDX-zp-hqE" secondAttribute="centerX" id="bC0-9u-4Gk"/>
+                        <constraint firstItem="UeT-28-GXD" firstAttribute="top" secondItem="XDX-zp-hqE" secondAttribute="top" constant="48" id="dXh-30-ZPy"/>
+                        <constraint firstAttribute="width" constant="375" id="esV-2H-dkj"/>
+                        <constraint firstItem="6U4-e7-uW4" firstAttribute="top" secondItem="F1k-Gb-HC6" secondAttribute="bottom" constant="10" id="gvX-nt-Y4L"/>
+                        <constraint firstItem="F1k-Gb-HC6" firstAttribute="top" secondItem="UeT-28-GXD" secondAttribute="bottom" constant="10" id="hT4-jp-pok"/>
+                        <constraint firstItem="3HD-Wd-vxI" firstAttribute="top" secondItem="XDX-zp-hqE" secondAttribute="top" constant="48" id="iD6-58-cya"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" keyboardDismissMode="onDrag" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qnb-k1-EdI">
+                    <rect key="frame" x="0.0" y="202" width="375" height="465"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="separatorColor" red="0.99607843139999996" green="0.96470588239999999" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="sectionIndexColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="sectionIndexBackgroundColor" red="0.99607843139999996" green="0.96470588239999999" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.99607843139999996" green="0.96470588239999999" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="XDX-zp-hqE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Baw-GU-yoS"/>
+                <constraint firstItem="XDX-zp-hqE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="KAg-2x-DrL"/>
+                <constraint firstAttribute="trailing" secondItem="XDX-zp-hqE" secondAttribute="trailing" id="M5L-Ij-4z9"/>
+                <constraint firstAttribute="bottom" secondItem="qnb-k1-EdI" secondAttribute="bottom" id="NGp-lZ-bQk"/>
+                <constraint firstItem="qnb-k1-EdI" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="p0S-No-DiF"/>
+                <constraint firstItem="qnb-k1-EdI" firstAttribute="top" secondItem="XDX-zp-hqE" secondAttribute="bottom" id="sbQ-Cr-rab"/>
+                <constraint firstItem="qnb-k1-EdI" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="u5k-Hx-Fbk"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="132" y="154.27286356821591"/>
+        </view>
+    </objects>
+</document>

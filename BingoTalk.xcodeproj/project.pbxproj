@@ -1,0 +1,1238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170458CE226714670035FC1D /* BTProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170458CC226714670035FC1D /* BTProfileViewController.m */; };
+		170458CF226714670035FC1D /* BTProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 170458CD226714670035FC1D /* BTProfileViewController.xib */; };
+		170458D3226730710035FC1D /* BTTeacherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 170458D2226730710035FC1D /* BTTeacherModel.m */; };
+		170F709B226CBFBC00258195 /* BTDateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 170F709A226CBFBC00258195 /* BTDateTool.m */; };
+		170F709F226E0E9000258195 /* NSDate+ZKDateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 170F709E226E0E9000258195 /* NSDate+ZKDateTools.m */; };
+		178158CF22649A5900B839A0 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 178158C722649A5800B839A0 /* NSString+Hash.m */; };
+		178158D022649A5900B839A0 /* NetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 178158C922649A5900B839A0 /* NetWorkTool.m */; };
+		178158D122649A5900B839A0 /* UIButton+BT.m in Sources */ = {isa = PBXBuildFile; fileRef = 178158CD22649A5900B839A0 /* UIButton+BT.m */; };
+		178158D222649A5900B839A0 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 178158CE22649A5900B839A0 /* UIView+Extension.m */; };
+		178158D422649A8600B839A0 /* NetWork.plist in Resources */ = {isa = PBXBuildFile; fileRef = 178158D322649A8600B839A0 /* NetWork.plist */; };
+		178158D922649AED00B839A0 /* BTPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178158D622649AED00B839A0 /* BTPageViewController.m */; };
+		178158DA22649AED00B839A0 /* BTNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178158D722649AED00B839A0 /* BTNavigationViewController.m */; };
+		178158DD22649B2700B839A0 /* BTButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 178158DB22649B2700B839A0 /* BTButtonModel.m */; };
+		178158E12264A0B100B839A0 /* BTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178158DF2264A0B100B839A0 /* BTLoginViewController.m */; };
+		178158E22264A0B100B839A0 /* BTLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178158E02264A0B100B839A0 /* BTLoginViewController.xib */; };
+		178158EB226596E000B839A0 /* BTNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178158E3226596DF00B839A0 /* BTNotificationViewController.m */; };
+		178158EC226596E000B839A0 /* BTNotificationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 178158E4226596DF00B839A0 /* BTNotificationModel.m */; };
+		178158ED226596E000B839A0 /* BTNotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178158E6226596DF00B839A0 /* BTNotificationTableViewCell.xib */; };
+		178158EE226596E000B839A0 /* BTNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178158E7226596DF00B839A0 /* BTNotificationViewController.xib */; };
+		178158EF226596E000B839A0 /* BTNotificationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 178158EA226596DF00B839A0 /* BTNotificationTableViewCell.m */; };
+		178158F22265D91900B839A0 /* EventCalender.m in Sources */ = {isa = PBXBuildFile; fileRef = 178158F02265D91800B839A0 /* EventCalender.m */; };
+		178158F62265D9B600B839A0 /* BTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 178158F42265D9B600B839A0 /* BTTableViewCell.m */; };
+		178158F72265D9B600B839A0 /* BTTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178158F52265D9B600B839A0 /* BTTableViewCell.xib */; };
+		178158FF2265DA8B00B839A0 /* BTClassMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178158F82265DA8A00B839A0 /* BTClassMainViewController.m */; };
+		178159002265DA8B00B839A0 /* BTClassMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178158F92265DA8A00B839A0 /* BTClassMainViewController.xib */; };
+		178159012265DA8B00B839A0 /* BTClassModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 178158FC2265DA8B00B839A0 /* BTClassModel.m */; };
+		178159022265DA8B00B839A0 /* BTClassTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178158FE2265DA8B00B839A0 /* BTClassTableTableViewController.m */; };
+		178159062266158100B839A0 /* BTAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178159042266158100B839A0 /* BTAccountViewController.m */; };
+		178159072266158100B839A0 /* BTAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178159052266158100B839A0 /* BTAccountViewController.xib */; };
+		1781590B2266379A00B839A0 /* BTAccountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 178159092266379A00B839A0 /* BTAccountTableViewCell.m */; };
+		1781590C2266379A00B839A0 /* BTAccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1781590A2266379A00B839A0 /* BTAccountTableViewCell.xib */; };
+		179BA2C222649553004F87E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 179BA2C122649553004F87E2 /* AppDelegate.m */; };
+		179BA2C822649553004F87E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179BA2C622649553004F87E2 /* Main.storyboard */; };
+		179BA2CA22649554004F87E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179BA2C922649554004F87E2 /* Assets.xcassets */; };
+		179BA2CD22649554004F87E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179BA2CB22649554004F87E2 /* LaunchScreen.storyboard */; };
+		179BA2D022649554004F87E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 179BA2CF22649554004F87E2 /* main.m */; };
+		179BA2DA22649554004F87E2 /* BingoTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 179BA2D922649554004F87E2 /* BingoTalkTests.m */; };
+		179BA2E522649554004F87E2 /* BingoTalkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 179BA2E422649554004F87E2 /* BingoTalkUITests.m */; };
+		17CA35E82272EDA40078DDC1 /* BTAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CA35E62272EDA40078DDC1 /* BTAboutViewController.m */; };
+		17CA35E92272EDA40078DDC1 /* BTAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17CA35E72272EDA40078DDC1 /* BTAboutViewController.xib */; };
+		17EFB1A1227724D80063D739 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EFB1A0227724D80063D739 /* libAFNetworking.a */; };
+		17EFB1A3227724E70063D739 /* libChameleonFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EFB1A2227724E70063D739 /* libChameleonFramework.a */; };
+		17EFB1A5227724E70063D739 /* libCYLTabBarController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EFB1A4227724E70063D739 /* libCYLTabBarController.a */; };
+		17EFB1A7227724E70063D739 /* libDZNEmptyDataSet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EFB1A6227724E70063D739 /* libDZNEmptyDataSet.a */; };
+		17EFB1A9227724E70063D739 /* libFDFullscreenPopGesture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EFB1A8227724E70063D739 /* libFDFullscreenPopGesture.a */; };
+		17EFB1AB227724E70063D739 /* libFSCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EFB1AA227724E70063D739 /* libFSCalendar.a */; };
+		17EFB1AD227724E70063D739 /* libMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EFB1AC227724E70063D739 /* libMasonry.a */; };
+		17EFB1AF227724E70063D739 /* libMJExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EFB1AE227724E70063D739 /* libMJExtension.a */; };
+		17EFB1B1227724E70063D739 /* libMJRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EFB1B0227724E70063D739 /* libMJRefresh.a */; };
+		17EFB1B3227724E70063D739 /* libpop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EFB1B2227724E70063D739 /* libpop.a */; };
+		17EFB1B5227724E70063D739 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EFB1B4227724E70063D739 /* libSDWebImage.a */; };
+		17EFB1B7227724E70063D739 /* libSVProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EFB1B6227724E70063D739 /* libSVProgressHUD.a */; };
+		17F69F5F226861280065B269 /* BTEditDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F69F5D226861280065B269 /* BTEditDetailViewController.m */; };
+		17F69F60226861280065B269 /* BTEditDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F69F5E226861280065B269 /* BTEditDetailViewController.xib */; };
+		17F69F64226861500065B269 /* BTSetPassWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F69F62226861500065B269 /* BTSetPassWordViewController.m */; };
+		17F69F65226861500065B269 /* BTSetPassWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F69F63226861500065B269 /* BTSetPassWordViewController.xib */; };
+		17F69F6A2268E9390065B269 /* BTStockScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F69F692268E9390065B269 /* BTStockScrollView.m */; };
+		17F69F6D2268E9870065B269 /* BTStockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F69F6C2268E9870065B269 /* BTStockView.m */; };
+		17F69F732268EA8C0065B269 /* BTStockViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F69F722268EA8C0065B269 /* BTStockViewCell.m */; };
+		17F69F77226901950065B269 /* BTClassEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F69F75226901950065B269 /* BTClassEditViewController.m */; };
+		17F69F78226901950065B269 /* BTClassEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17F69F76226901950065B269 /* BTClassEditViewController.xib */; };
+		1B30B94C9BA32F1FC73D6CE2 /* libPods-BingoTalk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74171874F3DF38879BB0F699 /* libPods-BingoTalk.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		179BA2D622649554004F87E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 179BA2B522649552004F87E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 179BA2BC22649552004F87E2;
+			remoteInfo = BingoTalk;
+		};
+		179BA2E122649554004F87E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 179BA2B522649552004F87E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 179BA2BC22649552004F87E2;
+			remoteInfo = BingoTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		170458CB226714670035FC1D /* BTProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTProfileViewController.h; sourceTree = "<group>"; };
+		170458CC226714670035FC1D /* BTProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTProfileViewController.m; sourceTree = "<group>"; };
+		170458CD226714670035FC1D /* BTProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BTProfileViewController.xib; sourceTree = "<group>"; };
+		170458D1226730710035FC1D /* BTTeacherModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTTeacherModel.h; sourceTree = "<group>"; };
+		170458D2226730710035FC1D /* BTTeacherModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTTeacherModel.m; sourceTree = "<group>"; };
+		170F7099226CBFBC00258195 /* BTDateTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTDateTool.h; sourceTree = "<group>"; };
+		170F709A226CBFBC00258195 /* BTDateTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTDateTool.m; sourceTree = "<group>"; };
+		170F709D226E0E9000258195 /* NSDate+ZKDateTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZKDateTools.h"; sourceTree = "<group>"; };
+		170F709E226E0E9000258195 /* NSDate+ZKDateTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZKDateTools.m"; sourceTree = "<group>"; };
+		178158C5226499A900B839A0 /* BTPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTPrefixHeader.pch; sourceTree = "<group>"; };
+		178158C722649A5800B839A0 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		178158C822649A5800B839A0 /* NetWorkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkTool.h; sourceTree = "<group>"; };
+		178158C922649A5900B839A0 /* NetWorkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkTool.m; sourceTree = "<group>"; };
+		178158CA22649A5900B839A0 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		178158CB22649A5900B839A0 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		178158CC22649A5900B839A0 /* UIButton+BT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BT.h"; sourceTree = "<group>"; };
+		178158CD22649A5900B839A0 /* UIButton+BT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BT.m"; sourceTree = "<group>"; };
+		178158CE22649A5900B839A0 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		178158D322649A8600B839A0 /* NetWork.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NetWork.plist; sourceTree = "<group>"; };
+		178158D522649AED00B839A0 /* BTNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTNavigationViewController.h; sourceTree = "<group>"; };
+		178158D622649AED00B839A0 /* BTPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPageViewController.m; sourceTree = "<group>"; };
+		178158D722649AED00B839A0 /* BTNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTNavigationViewController.m; sourceTree = "<group>"; };
+		178158D822649AED00B839A0 /* BTPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPageViewController.h; sourceTree = "<group>"; };
+		178158DB22649B2700B839A0 /* BTButtonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTButtonModel.m; sourceTree = "<group>"; };
+		178158DC22649B2700B839A0 /* BTButtonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTButtonModel.h; sourceTree = "<group>"; };
+		178158DE2264A0B100B839A0 /* BTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLoginViewController.h; sourceTree = "<group>"; };
+		178158DF2264A0B100B839A0 /* BTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLoginViewController.m; sourceTree = "<group>"; };
+		178158E02264A0B100B839A0 /* BTLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTLoginViewController.xib; sourceTree = "<group>"; };
+		178158E3226596DF00B839A0 /* BTNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTNotificationViewController.m; sourceTree = "<group>"; };
+		178158E4226596DF00B839A0 /* BTNotificationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTNotificationModel.m; sourceTree = "<group>"; };
+		178158E5226596DF00B839A0 /* BTNotificationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTNotificationModel.h; sourceTree = "<group>"; };
+		178158E6226596DF00B839A0 /* BTNotificationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTNotificationTableViewCell.xib; sourceTree = "<group>"; };
+		178158E7226596DF00B839A0 /* BTNotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTNotificationViewController.xib; sourceTree = "<group>"; };
+		178158E8226596DF00B839A0 /* BTNotificationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTNotificationTableViewCell.h; sourceTree = "<group>"; };
+		178158E9226596DF00B839A0 /* BTNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTNotificationViewController.h; sourceTree = "<group>"; };
+		178158EA226596DF00B839A0 /* BTNotificationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTNotificationTableViewCell.m; sourceTree = "<group>"; };
+		178158F02265D91800B839A0 /* EventCalender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventCalender.m; sourceTree = "<group>"; };
+		178158F12265D91900B839A0 /* EventCalender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCalender.h; sourceTree = "<group>"; };
+		178158F32265D9B500B839A0 /* BTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTableViewCell.h; sourceTree = "<group>"; };
+		178158F42265D9B600B839A0 /* BTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTableViewCell.m; sourceTree = "<group>"; };
+		178158F52265D9B600B839A0 /* BTTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTTableViewCell.xib; sourceTree = "<group>"; };
+		178158F82265DA8A00B839A0 /* BTClassMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTClassMainViewController.m; sourceTree = "<group>"; };
+		178158F92265DA8A00B839A0 /* BTClassMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTClassMainViewController.xib; sourceTree = "<group>"; };
+		178158FA2265DA8B00B839A0 /* BTClassMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTClassMainViewController.h; sourceTree = "<group>"; };
+		178158FB2265DA8B00B839A0 /* BTClassModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTClassModel.h; sourceTree = "<group>"; };
+		178158FC2265DA8B00B839A0 /* BTClassModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTClassModel.m; sourceTree = "<group>"; };
+		178158FD2265DA8B00B839A0 /* BTClassTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTClassTableTableViewController.h; sourceTree = "<group>"; };
+		178158FE2265DA8B00B839A0 /* BTClassTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTClassTableTableViewController.m; sourceTree = "<group>"; };
+		178159032266158100B839A0 /* BTAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAccountViewController.h; sourceTree = "<group>"; };
+		178159042266158100B839A0 /* BTAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAccountViewController.m; sourceTree = "<group>"; };
+		178159052266158100B839A0 /* BTAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BTAccountViewController.xib; sourceTree = "<group>"; };
+		178159082266379A00B839A0 /* BTAccountTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAccountTableViewCell.h; sourceTree = "<group>"; };
+		178159092266379A00B839A0 /* BTAccountTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAccountTableViewCell.m; sourceTree = "<group>"; };
+		1781590A2266379A00B839A0 /* BTAccountTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BTAccountTableViewCell.xib; sourceTree = "<group>"; };
+		179BA2BD22649553004F87E2 /* BingoTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BingoTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		179BA2C022649553004F87E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		179BA2C122649553004F87E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		179BA2C722649553004F87E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		179BA2C922649554004F87E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		179BA2CC22649554004F87E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		179BA2CE22649554004F87E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179BA2CF22649554004F87E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		179BA2D522649554004F87E2 /* BingoTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingoTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		179BA2D922649554004F87E2 /* BingoTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BingoTalkTests.m; sourceTree = "<group>"; };
+		179BA2DB22649554004F87E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179BA2E022649554004F87E2 /* BingoTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingoTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		179BA2E422649554004F87E2 /* BingoTalkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BingoTalkUITests.m; sourceTree = "<group>"; };
+		179BA2E622649554004F87E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CA35E52272EDA40078DDC1 /* BTAboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAboutViewController.h; sourceTree = "<group>"; };
+		17CA35E62272EDA40078DDC1 /* BTAboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAboutViewController.m; sourceTree = "<group>"; };
+		17CA35E72272EDA40078DDC1 /* BTAboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BTAboutViewController.xib; sourceTree = "<group>"; };
+		17EFB186227723B10063D739 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB188227723B10063D739 /* libChameleonFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libChameleonFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB18A227723B10063D739 /* libCYLTabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCYLTabBarController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB18C227723B10063D739 /* libDZNEmptyDataSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDZNEmptyDataSet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB18E227723B10063D739 /* libFDFullscreenPopGesture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFDFullscreenPopGesture.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB190227723B10063D739 /* libFSCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFSCalendar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB192227723B10063D739 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB194227723B10063D739 /* libMJExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMJExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB196227723B10063D739 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB198227723B10063D739 /* libpop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libpop.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB19A227723B10063D739 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB19C227723B10063D739 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB19E227724AB0063D739 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB1A0227724D80063D739 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB1A2227724E70063D739 /* libChameleonFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libChameleonFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB1A4227724E70063D739 /* libCYLTabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCYLTabBarController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB1A6227724E70063D739 /* libDZNEmptyDataSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDZNEmptyDataSet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB1A8227724E70063D739 /* libFDFullscreenPopGesture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFDFullscreenPopGesture.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB1AA227724E70063D739 /* libFSCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFSCalendar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB1AC227724E70063D739 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB1AE227724E70063D739 /* libMJExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMJExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB1B0227724E70063D739 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB1B2227724E70063D739 /* libpop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libpop.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB1B4227724E70063D739 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EFB1B6227724E70063D739 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17F69F5C226861280065B269 /* BTEditDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTEditDetailViewController.h; sourceTree = "<group>"; };
+		17F69F5D226861280065B269 /* BTEditDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTEditDetailViewController.m; sourceTree = "<group>"; };
+		17F69F5E226861280065B269 /* BTEditDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BTEditDetailViewController.xib; sourceTree = "<group>"; };
+		17F69F61226861500065B269 /* BTSetPassWordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTSetPassWordViewController.h; sourceTree = "<group>"; };
+		17F69F62226861500065B269 /* BTSetPassWordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTSetPassWordViewController.m; sourceTree = "<group>"; };
+		17F69F63226861500065B269 /* BTSetPassWordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BTSetPassWordViewController.xib; sourceTree = "<group>"; };
+		17F69F682268E9390065B269 /* BTStockScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTStockScrollView.h; sourceTree = "<group>"; };
+		17F69F692268E9390065B269 /* BTStockScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTStockScrollView.m; sourceTree = "<group>"; };
+		17F69F6B2268E9870065B269 /* BTStockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTStockView.h; sourceTree = "<group>"; };
+		17F69F6C2268E9870065B269 /* BTStockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTStockView.m; sourceTree = "<group>"; };
+		17F69F712268EA8C0065B269 /* BTStockViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTStockViewCell.h; sourceTree = "<group>"; };
+		17F69F722268EA8C0065B269 /* BTStockViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTStockViewCell.m; sourceTree = "<group>"; };
+		17F69F74226901950065B269 /* BTClassEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTClassEditViewController.h; sourceTree = "<group>"; };
+		17F69F75226901950065B269 /* BTClassEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTClassEditViewController.m; sourceTree = "<group>"; };
+		17F69F76226901950065B269 /* BTClassEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BTClassEditViewController.xib; sourceTree = "<group>"; };
+		74171874F3DF38879BB0F699 /* libPods-BingoTalk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BingoTalk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB171765641FD17C8BE11A2 /* Pods-BingoTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BingoTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BingoTalk/Pods-BingoTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		A9DD2C9A0B8CB3C9855EBE53 /* Pods-BingoTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BingoTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-BingoTalk/Pods-BingoTalk.release.xcconfig"; sourceTree = "<group>"; };
+		D2083B14A793825DA1552D26 /* Pods-BingoTalk.ad hoc distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BingoTalk.ad hoc distribution.xcconfig"; path = "Pods/Target Support Files/Pods-BingoTalk/Pods-BingoTalk.ad hoc distribution.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		179BA2BA22649552004F87E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EFB1A3227724E70063D739 /* libChameleonFramework.a in Frameworks */,
+				17EFB1A5227724E70063D739 /* libCYLTabBarController.a in Frameworks */,
+				17EFB1A7227724E70063D739 /* libDZNEmptyDataSet.a in Frameworks */,
+				17EFB1A9227724E70063D739 /* libFDFullscreenPopGesture.a in Frameworks */,
+				17EFB1AB227724E70063D739 /* libFSCalendar.a in Frameworks */,
+				17EFB1AD227724E70063D739 /* libMasonry.a in Frameworks */,
+				17EFB1AF227724E70063D739 /* libMJExtension.a in Frameworks */,
+				17EFB1B1227724E70063D739 /* libMJRefresh.a in Frameworks */,
+				17EFB1B3227724E70063D739 /* libpop.a in Frameworks */,
+				17EFB1B5227724E70063D739 /* libSDWebImage.a in Frameworks */,
+				17EFB1B7227724E70063D739 /* libSVProgressHUD.a in Frameworks */,
+				17EFB1A1227724D80063D739 /* libAFNetworking.a in Frameworks */,
+				1B30B94C9BA32F1FC73D6CE2 /* libPods-BingoTalk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179BA2D222649554004F87E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179BA2DD22649554004F87E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C08C31E69FF50C2B0C8FBFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BB171765641FD17C8BE11A2 /* Pods-BingoTalk.debug.xcconfig */,
+				A9DD2C9A0B8CB3C9855EBE53 /* Pods-BingoTalk.release.xcconfig */,
+				D2083B14A793825DA1552D26 /* Pods-BingoTalk.ad hoc distribution.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		170458D02267302B0035FC1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				170458D1226730710035FC1D /* BTTeacherModel.h */,
+				170458D2226730710035FC1D /* BTTeacherModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1750E5872266D007000F5E8A /* AccountEdit */ = {
+			isa = PBXGroup;
+			children = (
+				170458CB226714670035FC1D /* BTProfileViewController.h */,
+				170458CC226714670035FC1D /* BTProfileViewController.m */,
+				170458CD226714670035FC1D /* BTProfileViewController.xib */,
+			);
+			name = AccountEdit;
+			sourceTree = "<group>";
+		};
+		178158B42264978A00B839A0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				178158B9226497C100B839A0 /* MainClass */,
+				178158B8226497B700B839A0 /* Notification */,
+				178158B7226497AD00B839A0 /* Acconut */,
+				178158B6226497A500B839A0 /* Login */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		178158B6226497A500B839A0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				178158DE2264A0B100B839A0 /* BTLoginViewController.h */,
+				178158DF2264A0B100B839A0 /* BTLoginViewController.m */,
+				178158E02264A0B100B839A0 /* BTLoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		178158B7226497AD00B839A0 /* Acconut */ = {
+			isa = PBXGroup;
+			children = (
+				178159032266158100B839A0 /* BTAccountViewController.h */,
+				178159042266158100B839A0 /* BTAccountViewController.m */,
+				178159052266158100B839A0 /* BTAccountViewController.xib */,
+				178159082266379A00B839A0 /* BTAccountTableViewCell.h */,
+				178159092266379A00B839A0 /* BTAccountTableViewCell.m */,
+				1781590A2266379A00B839A0 /* BTAccountTableViewCell.xib */,
+				1750E5872266D007000F5E8A /* AccountEdit */,
+				17F69F5A2268582C0065B269 /* EditDetailProfile */,
+				17F69F592268581D0065B269 /* forgetPassword */,
+				17CA35E42272ED5E0078DDC1 /* Aboutus */,
+				170458D02267302B0035FC1D /* Model */,
+			);
+			name = Acconut;
+			sourceTree = "<group>";
+		};
+		178158B8226497B700B839A0 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				178158E5226596DF00B839A0 /* BTNotificationModel.h */,
+				178158E4226596DF00B839A0 /* BTNotificationModel.m */,
+				178158E8226596DF00B839A0 /* BTNotificationTableViewCell.h */,
+				178158EA226596DF00B839A0 /* BTNotificationTableViewCell.m */,
+				178158E6226596DF00B839A0 /* BTNotificationTableViewCell.xib */,
+				178158E9226596DF00B839A0 /* BTNotificationViewController.h */,
+				178158E3226596DF00B839A0 /* BTNotificationViewController.m */,
+				178158E7226596DF00B839A0 /* BTNotificationViewController.xib */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		178158B9226497C100B839A0 /* MainClass */ = {
+			isa = PBXGroup;
+			children = (
+				178158BB226497D900B839A0 /* ClassShow */,
+				178158BA226497C900B839A0 /* ClassEdit */,
+			);
+			name = MainClass;
+			sourceTree = "<group>";
+		};
+		178158BA226497C900B839A0 /* ClassEdit */ = {
+			isa = PBXGroup;
+			children = (
+				17F69F672268E8EA0065B269 /* BTStockView */,
+				17F69F74226901950065B269 /* BTClassEditViewController.h */,
+				17F69F75226901950065B269 /* BTClassEditViewController.m */,
+				17F69F76226901950065B269 /* BTClassEditViewController.xib */,
+			);
+			name = ClassEdit;
+			sourceTree = "<group>";
+		};
+		178158BB226497D900B839A0 /* ClassShow */ = {
+			isa = PBXGroup;
+			children = (
+				178158FA2265DA8B00B839A0 /* BTClassMainViewController.h */,
+				178158F82265DA8A00B839A0 /* BTClassMainViewController.m */,
+				178158F92265DA8A00B839A0 /* BTClassMainViewController.xib */,
+				178158FB2265DA8B00B839A0 /* BTClassModel.h */,
+				178158FC2265DA8B00B839A0 /* BTClassModel.m */,
+				178158FD2265DA8B00B839A0 /* BTClassTableTableViewController.h */,
+				178158FE2265DA8B00B839A0 /* BTClassTableTableViewController.m */,
+				178158F32265D9B500B839A0 /* BTTableViewCell.h */,
+				178158F42265D9B600B839A0 /* BTTableViewCell.m */,
+				178158F52265D9B600B839A0 /* BTTableViewCell.xib */,
+			);
+			name = ClassShow;
+			sourceTree = "<group>";
+		};
+		178158BE226497F900B839A0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				178158C622649A0200B839A0 /* Categorys */,
+				178158C22264982A00B839A0 /* launch */,
+				178158C12264981200B839A0 /* header */,
+				178158C02264980A00B839A0 /* Controller */,
+				178158BF2264980200B839A0 /* Tools */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		178158BF2264980200B839A0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				178158F12265D91900B839A0 /* EventCalender.h */,
+				178158F02265D91800B839A0 /* EventCalender.m */,
+				178158C822649A5800B839A0 /* NetWorkTool.h */,
+				178158C922649A5900B839A0 /* NetWorkTool.m */,
+				178158D322649A8600B839A0 /* NetWork.plist */,
+				170F7099226CBFBC00258195 /* BTDateTool.h */,
+				170F709A226CBFBC00258195 /* BTDateTool.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		178158C02264980A00B839A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				178158D522649AED00B839A0 /* BTNavigationViewController.h */,
+				178158D722649AED00B839A0 /* BTNavigationViewController.m */,
+				178158D822649AED00B839A0 /* BTPageViewController.h */,
+				178158D622649AED00B839A0 /* BTPageViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		178158C12264981200B839A0 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				178158C5226499A900B839A0 /* BTPrefixHeader.pch */,
+			);
+			name = header;
+			sourceTree = "<group>";
+		};
+		178158C22264982A00B839A0 /* launch */ = {
+			isa = PBXGroup;
+			children = (
+				179BA2CB22649554004F87E2 /* LaunchScreen.storyboard */,
+			);
+			name = launch;
+			sourceTree = "<group>";
+		};
+		178158C32264983500B839A0 /* AppCore */ = {
+			isa = PBXGroup;
+			children = (
+				179BA2C622649553004F87E2 /* Main.storyboard */,
+				179BA2CE22649554004F87E2 /* Info.plist */,
+				179BA2CF22649554004F87E2 /* main.m */,
+				179BA2C022649553004F87E2 /* AppDelegate.h */,
+				179BA2C122649553004F87E2 /* AppDelegate.m */,
+			);
+			name = AppCore;
+			sourceTree = "<group>";
+		};
+		178158C42264986100B839A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				179BA2C922649554004F87E2 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		178158C622649A0200B839A0 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				178158CB22649A5900B839A0 /* NSString+Hash.h */,
+				178158C722649A5800B839A0 /* NSString+Hash.m */,
+				178158CC22649A5900B839A0 /* UIButton+BT.h */,
+				178158CD22649A5900B839A0 /* UIButton+BT.m */,
+				178158DC22649B2700B839A0 /* BTButtonModel.h */,
+				178158DB22649B2700B839A0 /* BTButtonModel.m */,
+				178158CA22649A5900B839A0 /* UIView+Extension.h */,
+				178158CE22649A5900B839A0 /* UIView+Extension.m */,
+				170F709D226E0E9000258195 /* NSDate+ZKDateTools.h */,
+				170F709E226E0E9000258195 /* NSDate+ZKDateTools.m */,
+			);
+			name = Categorys;
+			sourceTree = "<group>";
+		};
+		179BA2B422649552004F87E2 = {
+			isa = PBXGroup;
+			children = (
+				179BA2BF22649553004F87E2 /* BingoTalk */,
+				179BA2D822649554004F87E2 /* BingoTalkTests */,
+				179BA2E322649554004F87E2 /* BingoTalkUITests */,
+				179BA2BE22649553004F87E2 /* Products */,
+				0C08C31E69FF50C2B0C8FBFC /* Pods */,
+				A57CDE03A6CAD2DE3E35E2DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		179BA2BE22649553004F87E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				179BA2BD22649553004F87E2 /* BingoTalk.app */,
+				179BA2D522649554004F87E2 /* BingoTalkTests.xctest */,
+				179BA2E022649554004F87E2 /* BingoTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		179BA2BF22649553004F87E2 /* BingoTalk */ = {
+			isa = PBXGroup;
+			children = (
+				178158C42264986100B839A0 /* Resources */,
+				178158C32264983500B839A0 /* AppCore */,
+				178158BE226497F900B839A0 /* Base */,
+				178158B42264978A00B839A0 /* Controllers */,
+			);
+			path = BingoTalk;
+			sourceTree = "<group>";
+		};
+		179BA2D822649554004F87E2 /* BingoTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				179BA2D922649554004F87E2 /* BingoTalkTests.m */,
+				179BA2DB22649554004F87E2 /* Info.plist */,
+			);
+			path = BingoTalkTests;
+			sourceTree = "<group>";
+		};
+		179BA2E322649554004F87E2 /* BingoTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				179BA2E422649554004F87E2 /* BingoTalkUITests.m */,
+				179BA2E622649554004F87E2 /* Info.plist */,
+			);
+			path = BingoTalkUITests;
+			sourceTree = "<group>";
+		};
+		17CA35E42272ED5E0078DDC1 /* Aboutus */ = {
+			isa = PBXGroup;
+			children = (
+				17CA35E52272EDA40078DDC1 /* BTAboutViewController.h */,
+				17CA35E62272EDA40078DDC1 /* BTAboutViewController.m */,
+				17CA35E72272EDA40078DDC1 /* BTAboutViewController.xib */,
+			);
+			name = Aboutus;
+			sourceTree = "<group>";
+		};
+		17F69F592268581D0065B269 /* forgetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				17F69F61226861500065B269 /* BTSetPassWordViewController.h */,
+				17F69F62226861500065B269 /* BTSetPassWordViewController.m */,
+				17F69F63226861500065B269 /* BTSetPassWordViewController.xib */,
+			);
+			name = forgetPassword;
+			sourceTree = "<group>";
+		};
+		17F69F5A2268582C0065B269 /* EditDetailProfile */ = {
+			isa = PBXGroup;
+			children = (
+				17F69F5C226861280065B269 /* BTEditDetailViewController.h */,
+				17F69F5D226861280065B269 /* BTEditDetailViewController.m */,
+				17F69F5E226861280065B269 /* BTEditDetailViewController.xib */,
+			);
+			name = EditDetailProfile;
+			sourceTree = "<group>";
+		};
+		17F69F672268E8EA0065B269 /* BTStockView */ = {
+			isa = PBXGroup;
+			children = (
+				17F69F682268E9390065B269 /* BTStockScrollView.h */,
+				17F69F692268E9390065B269 /* BTStockScrollView.m */,
+				17F69F6B2268E9870065B269 /* BTStockView.h */,
+				17F69F6C2268E9870065B269 /* BTStockView.m */,
+				17F69F712268EA8C0065B269 /* BTStockViewCell.h */,
+				17F69F722268EA8C0065B269 /* BTStockViewCell.m */,
+			);
+			name = BTStockView;
+			sourceTree = "<group>";
+		};
+		A57CDE03A6CAD2DE3E35E2DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17EFB1A2227724E70063D739 /* libChameleonFramework.a */,
+				17EFB1A4227724E70063D739 /* libCYLTabBarController.a */,
+				17EFB1A6227724E70063D739 /* libDZNEmptyDataSet.a */,
+				17EFB1A8227724E70063D739 /* libFDFullscreenPopGesture.a */,
+				17EFB1AA227724E70063D739 /* libFSCalendar.a */,
+				17EFB1AC227724E70063D739 /* libMasonry.a */,
+				17EFB1AE227724E70063D739 /* libMJExtension.a */,
+				17EFB1B0227724E70063D739 /* libMJRefresh.a */,
+				17EFB1B2227724E70063D739 /* libpop.a */,
+				17EFB1B4227724E70063D739 /* libSDWebImage.a */,
+				17EFB1B6227724E70063D739 /* libSVProgressHUD.a */,
+				17EFB1A0227724D80063D739 /* libAFNetworking.a */,
+				17EFB19E227724AB0063D739 /* libAFNetworking.a */,
+				17EFB186227723B10063D739 /* libAFNetworking.a */,
+				17EFB188227723B10063D739 /* libChameleonFramework.a */,
+				17EFB18A227723B10063D739 /* libCYLTabBarController.a */,
+				17EFB18C227723B10063D739 /* libDZNEmptyDataSet.a */,
+				17EFB18E227723B10063D739 /* libFDFullscreenPopGesture.a */,
+				17EFB190227723B10063D739 /* libFSCalendar.a */,
+				17EFB192227723B10063D739 /* libMasonry.a */,
+				17EFB194227723B10063D739 /* libMJExtension.a */,
+				17EFB196227723B10063D739 /* libMJRefresh.a */,
+				17EFB198227723B10063D739 /* libpop.a */,
+				17EFB19A227723B10063D739 /* libSDWebImage.a */,
+				17EFB19C227723B10063D739 /* libSVProgressHUD.a */,
+				74171874F3DF38879BB0F699 /* libPods-BingoTalk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		179BA2BC22649552004F87E2 /* BingoTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179BA2E922649555004F87E2 /* Build configuration list for PBXNativeTarget "BingoTalk" */;
+			buildPhases = (
+				14435C64E20F12DFEC4C9888 /* [CP] Check Pods Manifest.lock */,
+				179BA2B922649552004F87E2 /* Sources */,
+				179BA2BA22649552004F87E2 /* Frameworks */,
+				179BA2BB22649552004F87E2 /* Resources */,
+				D91D4A35A51E186D8A0C4925 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BingoTalk;
+			productName = BingoTalk;
+			productReference = 179BA2BD22649553004F87E2 /* BingoTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		179BA2D422649554004F87E2 /* BingoTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179BA2EC22649555004F87E2 /* Build configuration list for PBXNativeTarget "BingoTalkTests" */;
+			buildPhases = (
+				179BA2D122649554004F87E2 /* Sources */,
+				179BA2D222649554004F87E2 /* Frameworks */,
+				179BA2D322649554004F87E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				179BA2D722649554004F87E2 /* PBXTargetDependency */,
+			);
+			name = BingoTalkTests;
+			productName = BingoTalkTests;
+			productReference = 179BA2D522649554004F87E2 /* BingoTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		179BA2DF22649554004F87E2 /* BingoTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179BA2EF22649555004F87E2 /* Build configuration list for PBXNativeTarget "BingoTalkUITests" */;
+			buildPhases = (
+				179BA2DC22649554004F87E2 /* Sources */,
+				179BA2DD22649554004F87E2 /* Frameworks */,
+				179BA2DE22649554004F87E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				179BA2E222649554004F87E2 /* PBXTargetDependency */,
+			);
+			name = BingoTalkUITests;
+			productName = BingoTalkUITests;
+			productReference = 179BA2E022649554004F87E2 /* BingoTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		179BA2B522649552004F87E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Angelo;
+				TargetAttributes = {
+					179BA2BC22649552004F87E2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					179BA2D422649554004F87E2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 179BA2BC22649552004F87E2;
+					};
+					179BA2DF22649554004F87E2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 179BA2BC22649552004F87E2;
+					};
+				};
+			};
+			buildConfigurationList = 179BA2B822649552004F87E2 /* Build configuration list for PBXProject "BingoTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 179BA2B422649552004F87E2;
+			productRefGroup = 179BA2BE22649553004F87E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				179BA2BC22649552004F87E2 /* BingoTalk */,
+				179BA2D422649554004F87E2 /* BingoTalkTests */,
+				179BA2DF22649554004F87E2 /* BingoTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		179BA2BB22649552004F87E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178159002265DA8B00B839A0 /* BTClassMainViewController.xib in Resources */,
+				179BA2CD22649554004F87E2 /* LaunchScreen.storyboard in Resources */,
+				178158D422649A8600B839A0 /* NetWork.plist in Resources */,
+				178158ED226596E000B839A0 /* BTNotificationTableViewCell.xib in Resources */,
+				17F69F65226861500065B269 /* BTSetPassWordViewController.xib in Resources */,
+				179BA2CA22649554004F87E2 /* Assets.xcassets in Resources */,
+				178158E22264A0B100B839A0 /* BTLoginViewController.xib in Resources */,
+				170458CF226714670035FC1D /* BTProfileViewController.xib in Resources */,
+				1781590C2266379A00B839A0 /* BTAccountTableViewCell.xib in Resources */,
+				178159072266158100B839A0 /* BTAccountViewController.xib in Resources */,
+				17CA35E92272EDA40078DDC1 /* BTAboutViewController.xib in Resources */,
+				17F69F60226861280065B269 /* BTEditDetailViewController.xib in Resources */,
+				178158F72265D9B600B839A0 /* BTTableViewCell.xib in Resources */,
+				17F69F78226901950065B269 /* BTClassEditViewController.xib in Resources */,
+				179BA2C822649553004F87E2 /* Main.storyboard in Resources */,
+				178158EE226596E000B839A0 /* BTNotificationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179BA2D322649554004F87E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179BA2DE22649554004F87E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14435C64E20F12DFEC4C9888 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BingoTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D91D4A35A51E186D8A0C4925 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BingoTalk/Pods-BingoTalk-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BingoTalk/Pods-BingoTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		179BA2B922649552004F87E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178158F22265D91900B839A0 /* EventCalender.m in Sources */,
+				17F69F6D2268E9870065B269 /* BTStockView.m in Sources */,
+				170458CE226714670035FC1D /* BTProfileViewController.m in Sources */,
+				178158D122649A5900B839A0 /* UIButton+BT.m in Sources */,
+				178158CF22649A5900B839A0 /* NSString+Hash.m in Sources */,
+				170F709B226CBFBC00258195 /* BTDateTool.m in Sources */,
+				178159062266158100B839A0 /* BTAccountViewController.m in Sources */,
+				178158EC226596E000B839A0 /* BTNotificationModel.m in Sources */,
+				178158E12264A0B100B839A0 /* BTLoginViewController.m in Sources */,
+				178159022265DA8B00B839A0 /* BTClassTableTableViewController.m in Sources */,
+				17F69F732268EA8C0065B269 /* BTStockViewCell.m in Sources */,
+				178158D922649AED00B839A0 /* BTPageViewController.m in Sources */,
+				178158FF2265DA8B00B839A0 /* BTClassMainViewController.m in Sources */,
+				17F69F6A2268E9390065B269 /* BTStockScrollView.m in Sources */,
+				178158D222649A5900B839A0 /* UIView+Extension.m in Sources */,
+				178159012265DA8B00B839A0 /* BTClassModel.m in Sources */,
+				178158F62265D9B600B839A0 /* BTTableViewCell.m in Sources */,
+				178158EB226596E000B839A0 /* BTNotificationViewController.m in Sources */,
+				178158EF226596E000B839A0 /* BTNotificationTableViewCell.m in Sources */,
+				17F69F5F226861280065B269 /* BTEditDetailViewController.m in Sources */,
+				179BA2D022649554004F87E2 /* main.m in Sources */,
+				170458D3226730710035FC1D /* BTTeacherModel.m in Sources */,
+				179BA2C222649553004F87E2 /* AppDelegate.m in Sources */,
+				170F709F226E0E9000258195 /* NSDate+ZKDateTools.m in Sources */,
+				178158DD22649B2700B839A0 /* BTButtonModel.m in Sources */,
+				17F69F77226901950065B269 /* BTClassEditViewController.m in Sources */,
+				17CA35E82272EDA40078DDC1 /* BTAboutViewController.m in Sources */,
+				17F69F64226861500065B269 /* BTSetPassWordViewController.m in Sources */,
+				1781590B2266379A00B839A0 /* BTAccountTableViewCell.m in Sources */,
+				178158D022649A5900B839A0 /* NetWorkTool.m in Sources */,
+				178158DA22649AED00B839A0 /* BTNavigationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179BA2D122649554004F87E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179BA2DA22649554004F87E2 /* BingoTalkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		179BA2DC22649554004F87E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179BA2E522649554004F87E2 /* BingoTalkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		179BA2D722649554004F87E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 179BA2BC22649552004F87E2 /* BingoTalk */;
+			targetProxy = 179BA2D622649554004F87E2 /* PBXContainerItemProxy */;
+		};
+		179BA2E222649554004F87E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 179BA2BC22649552004F87E2 /* BingoTalk */;
+			targetProxy = 179BA2E122649554004F87E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		179BA2C622649553004F87E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179BA2C722649553004F87E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		179BA2CB22649554004F87E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179BA2CC22649554004F87E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		179BA2E722649555004F87E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		179BA2E822649555004F87E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		179BA2EA22649555004F87E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BB171765641FD17C8BE11A2 /* Pods-BingoTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = A63RAW4Q6W;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/BingoTalk/BingoTalk/BTPrefixHeader.pch;
+				INFOPLIST_FILE = BingoTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.easyvass.BingoTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.easyvass.BingoTalk;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		179BA2EB22649555004F87E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9DD2C9A0B8CB3C9855EBE53 /* Pods-BingoTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = A63RAW4Q6W;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/BingoTalk/BingoTalk/BTPrefixHeader.pch;
+				INFOPLIST_FILE = BingoTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.easyvass.BingoTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.easyvass.BingoTalk;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		179BA2ED22649555004F87E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BingoTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Angelo.BingoTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingoTalk.app/BingoTalk";
+			};
+			name = Debug;
+		};
+		179BA2EE22649555004F87E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BingoTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Angelo.BingoTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingoTalk.app/BingoTalk";
+			};
+			name = Release;
+		};
+		179BA2F022649555004F87E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BingoTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Angelo.BingoTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BingoTalk;
+			};
+			name = Debug;
+		};
+		179BA2F122649555004F87E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BingoTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Angelo.BingoTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BingoTalk;
+			};
+			name = Release;
+		};
+		17EFB182227719380063D739 /* ad hoc distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "ad hoc distribution";
+		};
+		17EFB183227719380063D739 /* ad hoc distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2083B14A793825DA1552D26 /* Pods-BingoTalk.ad hoc distribution.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Yinghua High Technology Co., Ltd. (A63RAW4Q6W)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = A63RAW4Q6W;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/BingoTalk/BingoTalk/BTPrefixHeader.pch;
+				INFOPLIST_FILE = BingoTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.easyvass.BingoTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.easyvass.BingoTalk;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "ad hoc distribution";
+		};
+		17EFB184227719380063D739 /* ad hoc distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BingoTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Angelo.BingoTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingoTalk.app/BingoTalk";
+			};
+			name = "ad hoc distribution";
+		};
+		17EFB185227719380063D739 /* ad hoc distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BingoTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Angelo.BingoTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BingoTalk;
+			};
+			name = "ad hoc distribution";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		179BA2B822649552004F87E2 /* Build configuration list for PBXProject "BingoTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179BA2E722649555004F87E2 /* Debug */,
+				179BA2E822649555004F87E2 /* Release */,
+				17EFB182227719380063D739 /* ad hoc distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179BA2E922649555004F87E2 /* Build configuration list for PBXNativeTarget "BingoTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179BA2EA22649555004F87E2 /* Debug */,
+				179BA2EB22649555004F87E2 /* Release */,
+				17EFB183227719380063D739 /* ad hoc distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179BA2EC22649555004F87E2 /* Build configuration list for PBXNativeTarget "BingoTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179BA2ED22649555004F87E2 /* Debug */,
+				179BA2EE22649555004F87E2 /* Release */,
+				17EFB184227719380063D739 /* ad hoc distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179BA2EF22649555004F87E2 /* Build configuration list for PBXNativeTarget "BingoTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179BA2F022649555004F87E2 /* Debug */,
+				179BA2F122649555004F87E2 /* Release */,
+				17EFB185227719380063D739 /* ad hoc distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 179BA2B522649552004F87E2 /* Project object */;
+}
